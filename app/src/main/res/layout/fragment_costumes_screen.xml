@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="675dp"
+    tools:context=".props_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="675dp"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:text="@string/costumes"
+            android:textColor="@color/white"
+            android:background="@drawable/title_screen"
+            android:textSize="25dp"
+            android:fontFamily="@font/bungee" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/costume_example"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="30dp"/>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="330dp"
+            android:background="@drawable/text_screen"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="6dp" />
+
+            <TextView
+                style="@style/text_screen"
+                android:text="@string/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                style="@style/info_screen"
+                android:layout_width="270dp"
+                android:id="@+id/name_costume_txt"
+                android:layout_height="wrap_content"
+                android:padding="6dp"/>
+
+            <TextView
+                style="@style/text_screen"
+                android:text="@string/seasons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                style="@style/info_screen"
+                android:id="@+id/season_costume_txt"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:padding="6dp"/>
+
+            <TextView
+                style="@style/text_screen"
+                android:text="@string/sizes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    style="@style/info_screen"
+                    android:id="@+id/size_costume_num"
+                    android:hint="@string/dimension"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:padding="6dp"/>
+
+                <EditText
+                    style="@style/info_screen"
+                    android:hint="@string/unit"
+                    android:id="@+id/size_costume_txt"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/text_screen"
+                android:text="@string/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Space
+                    android:layout_width="40dp"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    style="@style/info_screen"
+                    android:text="@string/stock1"
+                    android:id="@+id/stock1_costumes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/green"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"/>
+
+
+                <TextView
+                    style="@style/info_screen"
+                    android:text="@string/stock2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stock2_costumes"
+                    android:textColor="@color/orange"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"/>
+
+
+                <TextView
+                    style="@style/info_screen"
+                    android:text="@string/stock3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stock3_costumes"
+                    android:textColor="@color/red"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

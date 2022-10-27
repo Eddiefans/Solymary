@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="675dp"
+    tools:context=".props_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:text="@string/props"
+            android:textColor="@color/white"
+            android:background="@drawable/title_screen"
+            android:textSize="25dp"
+            android:fontFamily="@font/bungee" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/prop_example"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="30dp"/>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="330dp"
+            android:background="@drawable/text_screen"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="6dp" />
+
+            <TextView
+                style="@style/text_screen"
+                android:text="@string/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                style="@style/info_screen"
+                android:text="Ejemplo de nombre"
+                android:layout_width="270dp"
+                android:id="@+id/name_prop_txt"
+                android:layout_height="wrap_content"
+                android:padding="6dp"/>
+
+            <TextView
+                style="@style/text_screen"
+                android:text="@string/color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                style="@style/info_screen"
+                android:text="Ejemplo de nombre"
+                android:id="@+id/color_prop_txt"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:padding="6dp"/>
+
+            <TextView
+                style="@style/text_screen"
+                android:text="@string/sizes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    style="@style/info_screen"
+                    android:id="@+id/size_prop_num"
+                    android:hint="@string/sizes"
+                    android:layout_width="120dp"
+                    android:inputType="number"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"/>
+
+                <EditText
+                    style="@style/info_screen"
+                    android:hint="@string/dimension"
+                    android:id="@+id/size_prop_txt"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/text_screen"
+                android:text="@string/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    style="@style/info_screen"
+                    android:inputType="number"
+                    android:id="@+id/quantity_prop"
+                    android:layout_marginRight="5dp"/>
+                <TextView
+                    style="@style/info_screen"
+                    android:text="@string/stock1_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stock1_props"
+                    android:textColor="@color/green"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"/>
+
+                <TextView
+                    style="@style/info_screen"
+                    android:text="@string/stock2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stock2_props"
+                    android:textColor="@color/orange"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"/>
+
+                <TextView
+                    style="@style/info_screen"
+                    android:text="@string/stock3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stock3_props"
+                    android:textColor="@color/red"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Solymary</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="props">Accesorio</string>
+    <string name="costumes">Disfraz</string>
+    <string name="clients">Cliente</string>
+    <string name="rents">Renta</string>
+    <string name="status">Estado del producto</string>
+    <string name="color">Color</string>
+    <string name="name">Nombre</string>
+    <string name="sizes">Talla</string>
+    <string name="stock1">Disponible</string>
+    <string name="stock1_1">disponibles</string>
+    <string name="stock2">Actualmente rentado</string>
+    <string name="stock2_1">actualmente rentados</string>
+    <string name="stock3">Sin unidades</string>
+    <string name="unit">Unidad</string>
+    <string name="dimension">Dimension</string>
+    <string name="seasons">Temporada</string>
+    <string name="number">Formato en numero</string>
+    <string name="phone">Telefono</string>
+    <string name="address">Dirección</string>
+    <string name="names">Nombres</string>
+    <string name="lastname">Apellidos</string>
+    <string name="products">Producto</string>
+    <string name="income">Monto $</string>
+    <string name="datein">Fecha de entrega</string>
+    <string name="dateout">Fecha de Salida</string>
+    <string name="solymary">Sistema de Datos</string>
+    <string name="client">client</string>
+    <string name="rent">rent</string>
+    <string name="product">product</string>
+    <string name="size">size</string>
+    <string name="season">season</string>
+    <string name="costume">costume</string>
+    <string name="prop">prop</string>
+    <string name="empty_list1">Presiona el botón de añadir</string>
+    <string name="empty_list">No tienes elementos</string>
+    <string name="last_item">Ultimo</string>
+    <string name="first_item">Primero</string>
+    <string name="loading">Cargando...</string>
+    <string name="date_picker_title">Selecciona una fecha:</string>
+
+
+</resources>
